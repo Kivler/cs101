@@ -1,11 +1,15 @@
 #include <stdio.h>
-
-int main() {
-    // Write C code here
-    printf("\n*****");
-    printf("\n*****");
-    printf("\n*****");
-    printf("\n*****");
-    printf("\n*****");
-    return 0;
+int main()
+{
+int i;
+int j;
+for (i = 0; i < 5; i++)
+{
+ for (j = 0; j < 5; j++)
+ {
+ printf("*");
+ }
+ printf("\n");
+}
+return 0;
 }
